@@ -9,5 +9,6 @@ namespace Shopper.Model.Entities
     {
         public string RoleName { get; set; }
         public string Description { get; set; }
+        public ICollection<UserInRole> UserInRole { get; set; }
     }
 }
